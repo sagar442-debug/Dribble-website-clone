@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@100;200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    padding: 40px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-family: 'Playfair Display', serif;
+    /* background: -webkit-linear-gradient(#2e2e2e, #eee); */
+    /* background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+}
+
+.navigation-list li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+.pink-box {
+    margin: 40px 100px;
+    background-color: #eeeeee;
+    /* height: 600px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.text-1 {
+    padding: 100px;
+}
+
+.text-1 h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 80px;
+}
+
+.relative{
+    position: relative;
+}
+.numbers{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.numbers p{
+    margin: 10px auto 30px auto;
+}
+
+.numbers h1{
+    font-weight: 500;
+}
+.upper-section{
+    margin-right: 100px;
+}
+.lower-section{
+    margin-right: 300px;
+}
+
+.black-box{
+    width: 400px;
+    height: 130px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #2b2f38;
+    top: 440px;
+    right: 180px;
+    padding: 30px 20px 10px;
+}
+
+.black-box h1{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.second-container{
+    margin-top: 150px;
+    padding: 100px;
+}
+
+.branding-text h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.branding-text{
+    padding: 10px 90px;
+}
+
+.branding-text h3{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400 ;
+    color: #93959a;
+}
+
+.font-roboto{
+    font-family:'Roboto', sans-serif ;
+}
+
+.branding-text p{
+    color: #686c72;
+}
+
+.brand-picture{
+    margin-left: 190px;
+    overflow-x: hidden;
+}
+
+.brand-picture img{
+    height: 400px;
+}
+
+.brand-picture img:nth-child(2){
+    transform: translateX(150px);
+    opacity: 30%;
+}
+
+.case-study{
+    margin-top: 30px;
+}
+.case-study p,img{
+    cursor: pointer;
+    color: black;
+    font-size: 25px;
+    transition-delay: 100ms;
+    
+}
+
+.case-study:hover{
+    transform: translateX(20px);
+    transition-delay: 100ms;
+    transition-timing-function: ease-in;
+}
+
+.case-study img{
+    margin-top: 2px;
+    margin-left: 15px;
+    height: 30px;
+}
+
+.padding{
+    padding: 100px;
+}
+.contact{
+    font-family: ;
+    margin-left: 20px;
+}
+.product-text{
+    text-align: left;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.contact{
+    /* align-items: center; */
+}
+
+.actual-text{
+    color: #262626;
+
+}
+
+.founder-text h1{
+    font-weight: 300;
+    color: #262626;
+    font-size: 20px;
+
+
+}
+
+.founder-text{
+    padding: 0px 40px;
+}
+
+.founder-text button{
+    font-family:'Roboto', sans-serif ;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0px 10px;
+    margin-top: 50px;
+    border: none;
+    background-image: linear-gradient(180deg, white, #dfdddd);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.founder-text button:hover{
+    background-image: linear-gradient(180deg, #dfdddd, #dfdddd);
+}
+
